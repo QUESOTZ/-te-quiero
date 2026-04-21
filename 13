@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>te quiero</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- First Cat (Dark Grey) -->
+        <div class="cat-container cat1">
+            <div class="cat dark-cat">
+                <!-- Ears -->
+                <div class="ear ear-left"></div>
+                <div class="ear ear-right"></div>
+                
+                <!-- Head -->
+                <div class="head">
+                    <!-- Closed Eyes -->
+                    <div class="closed-eye eye-left"></div>
+                    <div class="closed-eye eye-right"></div>
+                    
+                    <!-- Nose -->
+                    <div class="nose"></div>
+                    
+                    <!-- Mouth -->
+                    <div class="mouth"></div>
+                    
+                    <!-- Blush -->
+                    <div class="blush blush-left-1"></div>
+                    <div class="blush blush-left-2"></div>
+                    <div class="blush blush-left-3"></div>
+                    <div class="blush blush-right-1"></div>
+                    <div class="blush blush-right-2"></div>
+                    <div class="blush blush-right-3"></div>
+                </div>
+                
+                <!-- Body -->
+                <div class="body">
+                    <div class="belly"></div>
+                </div>
+            </div>
+            
+            <!-- Floating Hearts -->
+            <div class="floating-hearts">
+                <div class="small-heart heart1"></div>
+                <div class="small-heart heart2"></div>
+                <div class="small-heart heart3"></div>
+            </div>
+        </div>
+        
+        <!-- Second Cat (Light Grey with Spots) -->
+        <div class="cat-container cat2">
+            <div class="cat light-cat">
+                <!-- Ears -->
+                <div class="ear ear-left"></div>
+                <div class="ear ear-right"></div>
+                
+                <!-- Head -->
+                <div class="head">
+                    <!-- Spots -->
+                    <div class="spot spot1"></div>
+                    <div class="spot spot2"></div>
+                    
+                    <!-- Closed Eyes -->
+                    <div class="closed-eye eye-left"></div>
+                    <div class="closed-eye eye-right"></div>
+                    
+                    <!-- Nose -->
+                    <div class="nose"></div>
+                    
+                    <!-- Mouth -->
+                    <div class="mouth"></div>
+                    
+                    <!-- Blush -->
+                    <div class="blush blush-left-1"></div>
+                    <div class="blush blush-left-2"></div>
+                    <div class="blush blush-right-1"></div>
+                    <div class="blush blush-right-2"></div>
+                </div>
+                
+                <!-- Body -->
+                <div class="body">
+                    <!-- Spots on body -->
+                    <div class="body-spot body-spot1"></div>
+                    <div class="body-spot body-spot2"></div>
+                    <div class="body-spot body-spot3"></div>
+                    
+                    <!-- Paws holding envelope -->
+                    <div class="paw paw-left"></div>
+                    <div class="paw paw-right"></div>
+                </div>
+            </div>
+            
+            <!-- Envelope -->
+            <div class="envelope">
+                <div class="envelope-body"></div>
+                <div class="envelope-flap"></div>
+                <div class="envelope-heart"></div>
+            </div>
+        </div>
+        
+        <!-- Message -->
+        <div class="message-bubble">
+            <p>te quiero</p>
+        </div>
+        
+        <!-- Poem Modal -->
+        <div class="poem-modal" id="poemModal">
+            <div class="modal-content">
+                <span class="close-modal" id="closeModal">&​times;</span>
+                <div class="poem-container">
+                    <h2>Te quiero por todo.</h2>
+                    <div class="poem-text">
+                        <p>No por lo que falta, ni por los bordes incompletos que otros intentarían llenar.</p>
+                        <p>No por lo que portan los demás, ni por lo que el mundo decide nombrar como suficiente.</p>
+                        <p>Ni por lo que otro pueda pronunciar de ti, reducirte a palabras que no alcanzan ni a rozarte.</p>
+                        <p class="highlight">Te quiero por todo.</p>
+                        <p>Por lo que te hace entero, aunque no lo muestres.</p>
+                        <p>Por lo que ocultas, no como defecto, sino como territorio que no necesita ser revelado.</p>
+                        <p>Por lo que mantienes en secreto, por lo que no compartes y aun así te define.</p>
+                        <p>Te quiero en lo visible y en lo negado, en lo que das y en lo que retienes.</p>
+                        <p class="highlight">Te quiero entero.</p>
+                        <p>Sin dividirte, sin corregirte, sin intentar comprenderte hasta volverte simple.</p>
+                        <p>Porque incluso en lo que no entiendo, en lo que no me pertenece, en lo que nunca será mío... ahí también te quiero.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
