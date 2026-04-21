@@ -1,0 +1,38 @@
+// Get modal elements
+const modal = document.getElementById('poemModal');
+const cats = document.querySelectorAll('.cat');
+const closeBtn = document.getElementById('closeModal');
+
+// Function to open modal
+function openModal() {
+    modal.style.display = 'block';
+    document.body.style.overflow = 'hidden'; // Prevent background scrolling
+}
+
+// Function to close modal
+function closeModal() {
+    modal.style.display = 'none';
+    document.body.style.overflow = 'auto'; // Restore scrolling
+}
+
+// Add click event listeners to both cats
+cats.forEach(cat => {
+    cat.addEventListener('click', openModal);
+});
+
+// Close modal when clicking the close button
+closeBtn.addEventListener('click', closeModal);
+
+// Close modal when clicking outside of modal content
+window.addEventListener('click', function(event) {
+    if (event.target === modal) {
+        closeModal();
+    }
+});
+
+// Close modal when pressing Escape key
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape' && modal.style.display === 'block') {
+        closeModal();
+    }
+});
